@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<title> E-Matrimoni Homepage </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+    
+     body {
+    background-color: orange;
+}
+        
+     h1 {
+    text-align: center;
+    font-size: 40px;
+         margin-top: 50px;
+     }
+        
+        
+            ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+    border-left:1px solid #bbb
+}
+
+li:last-child {
+    border-right:1px solid #bbb;
+}
+
+li a, .dropbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+        
+        li a:hover, .dropdown:hover .dropbtn{
+            background-color: red;
+        }
+        
+     
+        li.dropdown {
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1; 
+        }
+        
+        .dropdown-content a{
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        
+        dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+li a:hover:not(.active) {
+    background-color: red;
+}
+     
+    </style>   
+    </head>
+    
+    <body>
+    
+    <h1> Welcome to Malaysia's number 1 E-Matrimonial Service </h1>
+        
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Website Name</a>
+    </div>
+    <ul class="nav navbar-nav">
+        <ul>
+      <li class="active"><a href="/FYP/Homepage.htm">Home</a></li>
+      <li><a href="#">About Us</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Services</a>
+                <div class="dropdown-content">
+                <a href="#">Marriage Course</a>
+                <a href="#">Marriage Approval</a>
+                <a href="#">HIV Test</a>
+                <a href="#">Marriage Event Application</a>
+                <a href="#">Marriage Event Preperation</a>
+                <a href="#">Event Gallery</a>
+    </div>
+              
+      <li><a href="#">Contact Us</a></li>
+        </ul>
+        </ul>
+      <ul class="nav navbar-nav navbar-right">
+          <ul >
+      <li><a href="/FYP/Homepage.htm"><span class="glyphicon glyphicon-log-"></span> Logout</a></li>
+          </ul>
+          </ul>
+  </div>
+</nav>
+    
+    </body>
+    <html>
